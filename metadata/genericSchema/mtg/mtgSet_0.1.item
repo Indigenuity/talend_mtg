@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_kn6tYGTBEea23eYQXfoF6Q" name="repository.metadataGenericSchema" dataPackage="_kn6tYWTBEea23eYQXfoF6Q" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_kn6tYWTBEea23eYQXfoF6Q" name="repository.metadataGenericSchema" dataManager="_kn6tYGTBEea23eYQXfoF6Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kn6tYmTBEea23eYQXfoF6Q" id="_sDXAsGTAEea23eYQXfoF6Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6tY2TBEea23eYQXfoF6Q" name="mtgIoCode" label="mtgIoCode" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6tZGTBEea23eYQXfoF6Q" name="gathererCode" label="gathererCode" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6tZWTBEea23eYQXfoF6Q" name="oldCode" label="oldCode" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6tZmTBEea23eYQXfoF6Q" name="magCardsInfoCode" label="magCardsInfoCode" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6tZ2TBEea23eYQXfoF6Q" name="releaseDate" label="releaseDate" length="-1" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6taGTBEea23eYQXfoF6Q" name="border" label="border" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6taWTBEea23eYQXfoF6Q" name="setType" label="setType" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6tamTBEea23eYQXfoF6Q" name="onlineOnly" label="onlineOnly" length="-1" sourceType="BIT" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kn6ta2TBEea23eYQXfoF6Q" name="boosterText" label="boosterText" sourceType="TEXT" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PY3DwGTDEea23eYQXfoF6Q" name="block" label="block" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

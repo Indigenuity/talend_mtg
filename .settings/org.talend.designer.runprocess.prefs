@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+template_bat_script=%~d0\r\ncd %~dp0\r\njava  ${talend.job.jvmargs} -cp ${talend.job.bat.classpath} ${talend.job.class} ${talend.job.bat.addition} %* 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_ZE-o4GMEEea1tas_Wm1Fog" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_ZE-o4WMEEea1tas_Wm1Fog" comment="" name="context01" prompt="context01?" promptNeeded="true" type="id_Directory" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ZE-o4mMEEea1tas_Wm1Fog" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_ZE-o42MEEea1tas_Wm1Fog" comment="" name="context01" prompt="context01?" promptNeeded="true" type="id_Directory" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ZE-o5GMEEea1tas_Wm1Fog" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_ZE-o5WMEEea1tas_Wm1Fog" comment="" name="context01" prompt="context01?" promptNeeded="true" type="id_Directory" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ZE-o5mMEEea1tas_Wm1Fog" confirmationNeeded="false" name="qa">
+    <contextParameter xmi:id="_ZE-o52MEEea1tas_Wm1Fog" comment="" name="context01" prompt="context01?" promptNeeded="true" type="id_Directory" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_uJyC4GY6EeaeOtIVB99lKQ" name="repository.metadataGenericSchema" dataPackage="_uJyC4WY6EeaeOtIVB99lKQ" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_uJyC4WY6EeaeOtIVB99lKQ" name="repository.metadataGenericSchema" dataManager="_uJyC4GY6EeaeOtIVB99lKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uJyC4mY6EeaeOtIVB99lKQ" id="_Zth2kGY5EeaeOtIVB99lKQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uJyC42Y6EeaeOtIVB99lKQ" name="name" label="name" length="255" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uJyC5GY6EeaeOtIVB99lKQ" name="language" label="language" length="100" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uJyC5WY6EeaeOtIVB99lKQ" name="code" label="code" length="10" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uJyC5mY6EeaeOtIVB99lKQ" name="englishName" label="englishName" length="100" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uJyC52Y6EeaeOtIVB99lKQ" name="url" label="url" length="100" sourceType="VARCHAR" talendType="id_String" key="true"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

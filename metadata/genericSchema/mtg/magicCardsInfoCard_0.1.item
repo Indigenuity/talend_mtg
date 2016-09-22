@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_cfoZsGZYEea0-51d23iGlw" name="repository.metadataGenericSchema" dataPackage="_cfoZsWZYEea0-51d23iGlw"/>
+  <TalendMetadata:GenericPackage xmi:id="_cfoZsWZYEea0-51d23iGlw" name="repository.metadataGenericSchema" dataManager="_cfoZsGZYEea0-51d23iGlw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cfoZsmZYEea0-51d23iGlw" id="_qLKyEGZXEea0-51d23iGlw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZs2ZYEea0-51d23iGlw" name="cardNum" label="cardNum" length="10" sourceType="VARCHAR" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZtGZYEea0-51d23iGlw" name="manaCost" label="manaCost" length="100" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZtWZYEea0-51d23iGlw" name="url" label="url" length="255" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZtmZYEea0-51d23iGlw" name="name" label="name" length="255" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZt2ZYEea0-51d23iGlw" name="englishName" label="englishName" length="255" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZuGZYEea0-51d23iGlw" name="typeLine" label="typeLine" length="255" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZuWZYEea0-51d23iGlw" name="rarity" label="rarity" length="100" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cfoZumZYEea0-51d23iGlw" name="artist" label="artist" length="100" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CnR-0GZcEea0-51d23iGlw" name="setName" label="setName" length="100" talendType="id_String" key="true"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
