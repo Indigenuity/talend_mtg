@@ -1,5 +1,8 @@
 package routines;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -42,5 +45,29 @@ public class MagicCardsInfoLangFromUrl {
     		return matcher.group(groupIndex);
     	}
     	return null;
+    }
+    
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} Regex
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static List extractRegexList(String original, String regex ){
+    	
+    	Pattern pattern = Pattern.compile(regex);
+    	Matcher matcher = pattern.matcher(original);
+    	
+    	ArrayList<String> items = new ArrayList<String>(); 
+    	while(matcher.find()){
+    		items.add(matcher.group(1));
+    	}
+    	return items;
     }
 }

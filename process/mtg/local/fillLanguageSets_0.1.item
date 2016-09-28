@@ -189,7 +189,7 @@
       <column comment="" key="false" length="8" name="parentCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="name" expression="row5.name " type="id_String"/>
@@ -332,7 +332,7 @@
       <column comment="" key="false" length="3" name="oldCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="255" name="mcinfoUrl" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="0" name="mcinfoUrl" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>

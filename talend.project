@@ -3183,6 +3183,7 @@
       <relatedItems xmi:id="_NiWpS4ELEea1xNMt4Q_gCQ" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_NiWpTIELEea1xNMt4Q_gCQ" id="Country_Validation" version="Latest" type="routine"/>
       <relatedItems xmi:id="_NiWpTYELEea1xNMt4Q_gCQ" id="_Tw7dMF9SEea1tas_Wm1Fog - mtgiocard" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Gxbf8IWpEeaXqMkFFBshSg" id="_Tw7dMF9SEea1tas_Wm1Fog - mtgiocardnormalized" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_5S_l0F9REea1tas_Wm1Fog" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_5S_l0V9REea1tas_Wm1Fog" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>
